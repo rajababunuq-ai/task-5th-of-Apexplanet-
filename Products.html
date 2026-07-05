@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raja's Shop - Products</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <h2>Raja's Shop</h2>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html">Cart <span id="cart-count">0</span></a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <button id="themeBtn">
+        <i class="fa-solid fa-moon"></i>
+    </button>
+
+</header>
+
+<section style="padding:40px 8%;">
+
+<h1 style="margin-bottom:20px;">Our Products</h1>
+
+<input
+type="text"
+id="search"
+placeholder="Search Product..."
+style="padding:12px;width:100%;max-width:400px;margin-bottom:20px;">
+
+<select
+id="category"
+style="padding:12px;margin-left:10px;">
+<option value="all">All Categories</option>
+<option value="Shoes">Shoes</option>
+<option value="Watch">Watch</option>
+<option value="Headphone">Headphone</option>
+
+</select>
+
+<div id="products" class="features">
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Raja's Shop. All Rights Reserved.</p>
+
+</footer>
+
+<script src="app.js"></script>
+<script src="products.js"></script>
+
+</body>
+</html>
